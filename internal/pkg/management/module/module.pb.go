@@ -42,7 +42,7 @@ func (m *ModuleCreateRequest) Reset()         { *m = ModuleCreateRequest{} }
 func (m *ModuleCreateRequest) String() string { return proto.CompactTextString(m) }
 func (*ModuleCreateRequest) ProtoMessage()    {}
 func (*ModuleCreateRequest) Descriptor() ([]byte, []int) {
-	return fileDescriptor_module_4bd1f3906b55de90, []int{0}
+	return fileDescriptor_module_11d6915d666d3091, []int{0}
 }
 func (m *ModuleCreateRequest) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_ModuleCreateRequest.Unmarshal(m, b)
@@ -136,7 +136,7 @@ func (m *ModuleCreateResponse) Reset()         { *m = ModuleCreateResponse{} }
 func (m *ModuleCreateResponse) String() string { return proto.CompactTextString(m) }
 func (*ModuleCreateResponse) ProtoMessage()    {}
 func (*ModuleCreateResponse) Descriptor() ([]byte, []int) {
-	return fileDescriptor_module_4bd1f3906b55de90, []int{1}
+	return fileDescriptor_module_11d6915d666d3091, []int{1}
 }
 func (m *ModuleCreateResponse) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_ModuleCreateResponse.Unmarshal(m, b)
@@ -174,7 +174,7 @@ func (m *ModuleDeleteRequest) Reset()         { *m = ModuleDeleteRequest{} }
 func (m *ModuleDeleteRequest) String() string { return proto.CompactTextString(m) }
 func (*ModuleDeleteRequest) ProtoMessage()    {}
 func (*ModuleDeleteRequest) Descriptor() ([]byte, []int) {
-	return fileDescriptor_module_4bd1f3906b55de90, []int{2}
+	return fileDescriptor_module_11d6915d666d3091, []int{2}
 }
 func (m *ModuleDeleteRequest) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_ModuleDeleteRequest.Unmarshal(m, b)
@@ -212,7 +212,7 @@ func (m *ModuleDeleteResponse) Reset()         { *m = ModuleDeleteResponse{} }
 func (m *ModuleDeleteResponse) String() string { return proto.CompactTextString(m) }
 func (*ModuleDeleteResponse) ProtoMessage()    {}
 func (*ModuleDeleteResponse) Descriptor() ([]byte, []int) {
-	return fileDescriptor_module_4bd1f3906b55de90, []int{3}
+	return fileDescriptor_module_11d6915d666d3091, []int{3}
 }
 func (m *ModuleDeleteResponse) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_ModuleDeleteResponse.Unmarshal(m, b)
@@ -250,7 +250,7 @@ func (m *ModuleGetRequest) Reset()         { *m = ModuleGetRequest{} }
 func (m *ModuleGetRequest) String() string { return proto.CompactTextString(m) }
 func (*ModuleGetRequest) ProtoMessage()    {}
 func (*ModuleGetRequest) Descriptor() ([]byte, []int) {
-	return fileDescriptor_module_4bd1f3906b55de90, []int{4}
+	return fileDescriptor_module_11d6915d666d3091, []int{4}
 }
 func (m *ModuleGetRequest) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_ModuleGetRequest.Unmarshal(m, b)
@@ -291,7 +291,7 @@ func (m *ModuleGetResponse) Reset()         { *m = ModuleGetResponse{} }
 func (m *ModuleGetResponse) String() string { return proto.CompactTextString(m) }
 func (*ModuleGetResponse) ProtoMessage()    {}
 func (*ModuleGetResponse) Descriptor() ([]byte, []int) {
-	return fileDescriptor_module_4bd1f3906b55de90, []int{5}
+	return fileDescriptor_module_11d6915d666d3091, []int{5}
 }
 func (m *ModuleGetResponse) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_ModuleGetResponse.Unmarshal(m, b)
@@ -342,7 +342,7 @@ func (m *ModuleListRequest) Reset()         { *m = ModuleListRequest{} }
 func (m *ModuleListRequest) String() string { return proto.CompactTextString(m) }
 func (*ModuleListRequest) ProtoMessage()    {}
 func (*ModuleListRequest) Descriptor() ([]byte, []int) {
-	return fileDescriptor_module_4bd1f3906b55de90, []int{6}
+	return fileDescriptor_module_11d6915d666d3091, []int{6}
 }
 func (m *ModuleListRequest) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_ModuleListRequest.Unmarshal(m, b)
@@ -373,7 +373,7 @@ func (m *ModuleListResponse) Reset()         { *m = ModuleListResponse{} }
 func (m *ModuleListResponse) String() string { return proto.CompactTextString(m) }
 func (*ModuleListResponse) ProtoMessage()    {}
 func (*ModuleListResponse) Descriptor() ([]byte, []int) {
-	return fileDescriptor_module_4bd1f3906b55de90, []int{7}
+	return fileDescriptor_module_11d6915d666d3091, []int{7}
 }
 func (m *ModuleListResponse) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_ModuleListResponse.Unmarshal(m, b)
@@ -410,7 +410,7 @@ func (m *Empty) Reset()         { *m = Empty{} }
 func (m *Empty) String() string { return proto.CompactTextString(m) }
 func (*Empty) ProtoMessage()    {}
 func (*Empty) Descriptor() ([]byte, []int) {
-	return fileDescriptor_module_4bd1f3906b55de90, []int{8}
+	return fileDescriptor_module_11d6915d666d3091, []int{8}
 }
 func (m *Empty) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_Empty.Unmarshal(m, b)
@@ -614,9 +614,9 @@ var _ModuleService_serviceDesc = grpc.ServiceDesc{
 	Metadata: "module.proto",
 }
 
-func init() { proto.RegisterFile("module.proto", fileDescriptor_module_4bd1f3906b55de90) }
+func init() { proto.RegisterFile("module.proto", fileDescriptor_module_11d6915d666d3091) }
 
-var fileDescriptor_module_4bd1f3906b55de90 = []byte{
+var fileDescriptor_module_11d6915d666d3091 = []byte{
 	// 473 bytes of a gzipped FileDescriptorProto
 	0x1f, 0x8b, 0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0xff, 0x7c, 0x94, 0xc1, 0x6e, 0xd3, 0x40,
 	0x10, 0x86, 0xe3, 0x3a, 0x71, 0x93, 0x69, 0x8b, 0x9a, 0x49, 0x40, 0x96, 0x0f, 0xc8, 0x5a, 0x10,
